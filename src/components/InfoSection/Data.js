@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'This website is one of them too!',
     buttonLabel: 'Take a look',
     imgStart: false,
-    img: require('../../images/img-1.jpg'),
+    img: require('../../images/ill-1.png'),
     alt: 'img1',
     dark: true,
     primary: true,
