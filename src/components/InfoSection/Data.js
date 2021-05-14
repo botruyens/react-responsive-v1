@@ -6,7 +6,7 @@ export const homeObjOne = {
     topLine: 'Hi there!',
     headLine: 'Here are some of my projects.',
     description: 'This website is one of them too!',
-    buttonLabel: 'Take a look',
+    buttonLabel: 'My Portfolio',
  /* img: require({Img1}), */
     imgStart: true,
  /* alt: 'img1', */
@@ -23,7 +23,7 @@ export const homeObjTwo = {
     topLine: 'Hi there!',
     headLine: 'Here are some of my projects.',
     description: 'This website is one of them too!',
-    buttonLabel: 'Take a look',
+    buttonLabel: 'Visit my blog.',
  /* img: require({Img1}), */
     imgStart: true,
  /* alt: 'img1', */
@@ -33,14 +33,14 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'servicest',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Hi there!',
-    headLine: 'Here are some of my projects.',
-    description: 'This website is one of them too!',
-    buttonLabel: 'Take a look',
+    topLine: 'Services',
+    headLine: '',
+    description: '',
+    buttonLabel: '',
  /* img: require({Img1}), */
     imgStart: true,
  /* alt: 'img1', */
