@@ -1,3 +1,6 @@
+// import Img1 from "../../images/ill-1.png";
+
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -7,7 +10,7 @@ export const homeObjOne = {
     headLine: 'Here are some of my projects.',
     description: 'This website is one of them too!',
     buttonLabel: 'My Portfolio',
- /* img: require({Img1}), */
+ /*   Img: require(), */
     imgStart: true,
  /* alt: 'img1', */
     dark: true,
@@ -20,12 +23,12 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Hi there!',
-    headLine: 'Here are some of my projects.',
-    description: 'This website is one of them too!',
+    topLine: 'About me',
+    headLine: '',
+    description: '',
     buttonLabel: 'Visit my blog.',
  /* img: require({Img1}), */
-    imgStart: true,
+    imgStart: false,
  /* alt: 'img1', */
     dark: false,
     primary: false,
@@ -33,7 +36,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'servicest',
+    id: 'services',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
