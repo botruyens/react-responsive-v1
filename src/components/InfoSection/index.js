@@ -20,7 +20,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, darkText, desc
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                            <Img src={Img}/>
+                            <Img src={img}></Img>
                         </ImgWrap>
                     </Column2>
                 </InfoRow>

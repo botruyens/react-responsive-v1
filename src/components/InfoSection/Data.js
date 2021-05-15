@@ -1,4 +1,6 @@
-// import Img1 from "../../images/ill-1.png";
+import ill1 from "../../images/ill-1.png";
+import ill2 from "../../images/ill-2.png";
+import ill3 from "../../images/ill-3.png";
 
 
 export const homeObjOne = {
@@ -10,7 +12,7 @@ export const homeObjOne = {
     headLine: 'Here are some of my projects.',
     description: 'This website is one of them too!',
     buttonLabel: 'My Portfolio',
- /*   Img: require(), */
+    img: ill1,
     imgStart: true,
  /* alt: 'img1', */
     dark: true,
@@ -27,7 +29,7 @@ export const homeObjTwo = {
     headLine: '',
     description: '',
     buttonLabel: 'Visit my blog.',
- /* img: require({Img1}), */
+    img: ill2,
     imgStart: false,
  /* alt: 'img1', */
     dark: false,
@@ -44,7 +46,7 @@ export const homeObjThree = {
     headLine: '',
     description: '',
     buttonLabel: '',
- /* img: require({Img1}), */
+    img: ill3,
     imgStart: true,
  /* alt: 'img1', */
     dark: true,
